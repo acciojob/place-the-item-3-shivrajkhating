@@ -1,17 +1,18 @@
 
 /* Your CSS Code here. */
 .holder {
-    display: flex;               /* Enable flex layout */
-    flex-wrap: wrap;             /* Move items to next line if not enough space */
-    justify-content: space-between; /* Evenly place items in a row */
-    gap: 10px;                   /* Optional space between items */
+    display: flex;                  /* enables flexbox */
+    flex-wrap: wrap;                /* allows items to go to the next row if there are too many */
+    justify-content: space-evenly;  /* evenly distributes items in the row */
+    align-items: center;            /* vertically centers items */
+    gap: 10px;                      /* optional spacing between items */
 }
 
+/* Optional: basic styling for items */
 .item {
-    background-color: #2ecc71;
-    color: white;
     padding: 20px;
+    background-color: #4CAF50;
+    color: white;
     text-align: center;
     border-radius: 5px;
-    flex: 1 1 150px;             /* Grow/shrink, minimum width 150px */
 }
